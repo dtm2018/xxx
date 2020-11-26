@@ -436,14 +436,18 @@ button:hover, button:active, button:focus {
 
 .appBottomMenu .item strong {
   margin-top: 4px;
+
   display: block;
   color: #141515;
   font-weight: 400;
   transition: 0.1s all;
+    font-weight: bold; 
+    Xcolor: green !important;
 }
 
 .appBottomMenu .item:active {
   opacity: .8;
+    color: red;
 }
 
 .appBottomMenu .item.active:before {
@@ -453,7 +457,7 @@ button:hover, button:active, button:focus {
 .appBottomMenu .item.active i.icon,
 .appBottomMenu .item.active ion-icon,
 .appBottomMenu .item.active strong {
-  color: #1E74FD !important;
+  color: green !important;
   font-weight: 500;
 }
 
