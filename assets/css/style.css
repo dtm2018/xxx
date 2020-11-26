@@ -365,7 +365,7 @@ button:hover, button:active, button:focus {
 
 .appBottomMenu .item {
   font-size: 14px;
-  letter-spacing: .2;
+  letter-spacing: .5px;
   text-align: center;
   width: 100%;
   height: 56px;
