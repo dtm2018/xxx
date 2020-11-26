@@ -15,6 +15,12 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/192x192.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="manifest" href="__manifest.json">
+    <script>
+        function searchTap() {
+            let searchData = document.getElementById("searchQeury")
+            alert(searchData.value);
+        }
+    </script>
 </head>
 
 <body>
@@ -33,7 +39,7 @@
             </a>
         </div>
         <div class="pageTitle">Listview</div>
-        <div class="right">
+        <div xclass="right">
         </div>
     </div>
     <!-- * App Header -->
@@ -44,11 +50,12 @@
     <!-- Extra Header -->
     <div class="extraHeader">
         <form class="search-form">
-            <div class="form-group searchbox">
-                <input type="text" class="form-control" placeholder="Search...">
+            <div class="form-group searchbox"">
+                <input type="text" class="form-control" id="searchQeury" placeholder="Search...">
                 <i class="input-icon">
                     <ion-icon name="search-outline"></ion-icon>
                 </i>
+                    <button type="button" class="btn btn-primary mr-1 mb-1" onclick="searchTap()">PRIMARY</button>
             </div>
         </form>
     </div>
